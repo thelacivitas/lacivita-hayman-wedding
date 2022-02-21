@@ -1,0 +1,25 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "rules": {
+    "no-console": 0,
+    "react/jsx-uses-vars": 2,
+    "quotes": [
+      2,
+      "single"
+    ]
+  },
+  "plugins": [
+    "react",
+    "jest"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
