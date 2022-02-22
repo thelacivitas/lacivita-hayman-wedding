@@ -8,25 +8,13 @@
     background-size: cover;
 }
 
-.sunset-palms-background {
-    background: url(../img/sunset-palms.jpg) no-repeat center;
-    background-size: cover;
-}
-
-
-
-/* Common styles */
 .home-section-1,
 .home-section-2,
 .home-section-3 {
-
-
-    /* Fonts */
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
     color: black;
 
-    /* Element location */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,19 +23,19 @@
 
 .home-section-1 {
     color: white;
-    background: darkgreen;
-    height:500px;
+    height: 500px;
 }
+
 .home-section-2,
 .home-section-3 {
     flex-wrap: wrap;
-    background: antiquewhite;
-    height:300px;
+    background: beige;
+    height: 300px;
 }
 
 
 .home-section-3 div {
-    /* Each div to mirror on half the page */
+    /* Each div to layout each on half of the page */
     width: 50%;
 }
 

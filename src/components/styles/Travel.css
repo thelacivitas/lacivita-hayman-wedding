@@ -9,12 +9,14 @@
 
     align-items: center;
     justify-content: center;
+}
 
-
+.travel-info {
+    padding: 20px 10% 20px 10%;
 }
 
 a {
-    color:white;
+    color: white;
 }
 
 .left {

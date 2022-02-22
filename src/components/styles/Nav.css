@@ -6,7 +6,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     color: black;
+}
 
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -8,7 +8,10 @@
     color: black;
 }
 
-
+.sunset-palms-background {
+    background: url(../img/sunset-palms.jpg) no-repeat center;
+    background-size: cover;
+}
 
 /* Common Styles */
 .schedule-title,
@@ -20,18 +23,23 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-    padding:5%;
-
+    padding: 5%;
 }
 
+.schedule-title {
+    padding: 5% 0 0 0;
+}
 .schedule-left {
     flex: 1;
-    border-right: 2px solid tan;
-    padding:5%;
-
-
 }
 
 .schedule-right {
-    flex: 2;
+    flex: 1;
+}
+
+hr {
+    width:10%;
+}
+.schedule-left + .schedule-right {
+    border-left: 2px solid palegoldenrod;
 }
