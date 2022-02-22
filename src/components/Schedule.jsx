@@ -27,7 +27,7 @@ export default class Schedule extends React.Component {
                         <h4>Welcome Party</h4>
                         <h4>6-8pm</h4>
                         <h4>Location: TBD</h4>
-                        <h4> Please wear white!</h4>
+                        <h4>Please wear white!</h4>
                     </div>
                 </div>
 
