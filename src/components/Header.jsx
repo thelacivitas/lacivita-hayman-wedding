@@ -13,9 +13,8 @@ export default class Header extends React.Component {
 
     render() {
         return (
-            <div id='header' className="key-west-beach-background header">
+            <div id='header' className="header">
                 <h1>MICHEL & ANGELO</h1>
-                <h1>WE&apos;RE GETTING MARRIED</h1>
             </div>
         );
     }

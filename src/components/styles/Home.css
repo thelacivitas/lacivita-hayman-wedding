@@ -1,0 +1,53 @@
+.home {
+    width: 100%;
+}
+
+.key-west-beach-background {
+    width: 100%;
+    background: url(../img/key-west-beach.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.sunset-palms-background {
+    background: url(../img/sunset-palms.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/* Common styles */
+.home-section-1,
+.home-section-2,
+.home-section-3 {
+    height: 300px;
+
+    /* Fonts */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+
+    /* Element location */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px inset;
+}
+
+
+.home-section-1 {
+    color: white;
+    background: darkgreen;
+}
+
+.home-section-2 {
+    flex-wrap: wrap;
+    background: antiquewhite;
+}
+
+.home-section-3 {
+    background: lightblue;
+}
+
+.home-section-3 div {
+    /* Each div to mirror on half the page */
+    width: 50%;
+}
