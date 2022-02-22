@@ -11,12 +11,11 @@ export default class Travel extends React.Component {
         return (
             <div id='travel' className='travel'>
 
-                <div className='left'>
+                <div className="travel-title">
                     <h1>Travel</h1>
                 </div>
 
-                <div className='right'>
-                    <p><a href="https://www.beaches.com/resorts/turks-caicos/" target="_blank" rel="noreferrer">Beaches Resort - Turks & Caicos</a></p>
+                <div className='travel-info'>
 
                     <p>
                         Please contact our booking agent Donna Jaworski at Cadillac Travel Group to handle your bookings.
@@ -24,7 +23,7 @@ export default class Travel extends React.Component {
                     </p>
 
                     <p>(248) 358-5330 EXT 122</p>
-                    <p>donna@cadillactravel.com</p>
+                  <p>  <a href = "mailto: donna@cadillactravel.com">donna@cadillactravel.com</a></p>
                 </div>
             </div>
         )

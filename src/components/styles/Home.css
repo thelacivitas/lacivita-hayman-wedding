@@ -13,11 +13,13 @@
     background-size: cover;
 }
 
+
+
 /* Common styles */
 .home-section-1,
 .home-section-2,
 .home-section-3 {
-    height: 300px;
+
 
     /* Fonts */
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -28,26 +30,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px inset;
 }
 
 
 .home-section-1 {
     color: white;
     background: darkgreen;
+    height:500px;
 }
-
-.home-section-2 {
+.home-section-2,
+.home-section-3 {
     flex-wrap: wrap;
     background: antiquewhite;
+    height:300px;
 }
 
-.home-section-3 {
-    background: lightblue;
-}
 
 .home-section-3 div {
     /* Each div to mirror on half the page */
     width: 50%;
 }
+
+
