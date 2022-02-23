@@ -12,19 +12,19 @@ export default class Nav extends React.Component {
             <nav id='nav' className='nav'>
                 <ul className='navbar'>
                     <li>
-                        <Link to='/#home' className="nav-link">HOME</Link>
+                        <Link to='#home' className="nav-link">HOME</Link>
                     </li>
                     <li>
-                        <Link to='/#schedule' className="nav-link">SCHEDULE</Link>
+                        <Link to='#schedule' className="nav-link">SCHEDULE</Link>
                     </li>
                     <li>
-                        <Link to='/#travel' className="nav-link">TRAVEL</Link>
+                        <Link to='#travel' className="nav-link">TRAVEL</Link>
                     </li>
                     <li>
-                        <Link to='/#faq' className="nav-link">FAQ</Link>
+                        <Link to='#faq' className="nav-link">FAQ</Link>
                     </li>
                     <li>
-                        <Link to='/#rsvp' className="nav-link">RSVP</Link>
+                        <Link to='#rsvp' className="nav-link">RSVP</Link>
                     </li>
                 </ul>
             </nav>

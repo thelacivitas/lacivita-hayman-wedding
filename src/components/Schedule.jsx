@@ -20,7 +20,7 @@ export default class Schedule extends React.Component {
 
                 <div className='schedule-section-1'>
                     <div className='schedule-left'>
-                        <h3>Feb 2, 2023</h3>
+                        <h2>Feb 2, 2023</h2>
                         <h3>Thursday</h3>
                     </div>
                     <div className='schedule-right'>
@@ -33,7 +33,7 @@ export default class Schedule extends React.Component {
 
                 <div className='schedule-section-2'>
                     <div className='schedule-left'>
-                        <h3>Feb 3, 2023</h3>
+                        <h2>Feb 3, 2023</h2>
                         <h3>Friday</h3>
                     </div>
                     <div className='schedule-right'>
@@ -45,7 +45,7 @@ export default class Schedule extends React.Component {
 
                 <div className='schedule-section-3'>
                     <div className='schedule-left'>
-                        <h3>Feb 4, 2023</h3>
+                        <h2>Feb 4, 2023</h2>
                         <h3>Saturday</h3>
                     </div>
                     <div className='schedule-right'>

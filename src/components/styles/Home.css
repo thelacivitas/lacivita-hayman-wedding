@@ -4,14 +4,14 @@
 
 .key-west-beach-background {
     width: 100%;
-    background: url(../img/key-west-beach.jpg) no-repeat center;
+    background: url(../img/key-west-beach.jpg) no-repeat center left;
     background-size: cover;
 }
 
 .home-section-1,
 .home-section-2,
 .home-section-3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Didot, serif;
     font-size: large;
     color: black;
 
@@ -24,19 +24,33 @@
 .home-section-1 {
     color: white;
     height: 500px;
+    letter-spacing:8px;
+    font-weight:300;
 }
 
 .home-section-2,
 .home-section-3 {
     flex-wrap: wrap;
-    background: beige;
+    background: #f5f2ea;
     height: 300px;
 }
-
+.home-section-2 {
+    flex-direction: column;
+    letter-spacing:2px;
+}
 
 .home-section-3 div {
     /* Each div to layout each on half of the page */
     width: 50%;
+}
+
+.home-section-1 h1 {
+    font-weight:300!important;
+    font-size:3em!important;
+}
+
+.home h2 {
+    margin: 0;
 }
 
 

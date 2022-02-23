@@ -2,7 +2,8 @@
   "name": "lacivita-hayman-wedding",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thelacivitas.github.io",
+  "title":  "LaCivita Wedding",
+  "homepage": "https://thelacivitas.github.io/lacivita-hayman-wedding",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",

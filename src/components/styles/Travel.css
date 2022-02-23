@@ -4,16 +4,19 @@
     height: 100%;
 
     /* Fonts */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: medium;
+    font-family: Didot, serif;
+    font-size: large;
     color: white;
 
     align-items: center;
     justify-content: center;
+    padding:2%;
 }
 
 .travel-info {
     padding: 20px 10% 20px 10%;
+    font-size:1.4em;
+    margin:0 20%;
 }
 
 a {
@@ -26,4 +29,8 @@ a {
 
 .right {
     flex: 2;
+}
+
+p {
+    font-size:1em;
 }

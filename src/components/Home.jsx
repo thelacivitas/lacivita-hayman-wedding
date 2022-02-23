@@ -19,7 +19,15 @@ export default class Home extends React.Component {
                     </div>
                 </div>
                 <div className='home-section-2'>
-                    <h2> MICHEL HAYMAN AND ANGELO LACIVITA</h2>
+                    <div>
+                        <h2> MICHEL HAYMAN</h2>
+                    </div>
+                    <div>
+                        <h3>AND</h3>
+                    </div>
+                    <div>
+                        <h2>ANGELO LACIVITA</h2>
+                    </div>
                 </div>
                 <div className='home-section-3'>
                     <div>

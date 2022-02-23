@@ -5,6 +5,7 @@ import Home from './Home';
 import Schedule from './Schedule';
 import Travel from './Travel';
 import Faq from './Faq';
+// import Location from './Location';
 // import Rsvp from './Rsvp';
 
 export default class Main extends React.Component {
@@ -24,6 +25,7 @@ export default class Main extends React.Component {
                     <Home/>
                     <Schedule/>
                     <Travel/>
+                    {/*<Location />*/}
                     <Faq/>
                     {/*TODO: Removing RSVP until we get code*/}
                     {/*<Rsvp/>*/}
