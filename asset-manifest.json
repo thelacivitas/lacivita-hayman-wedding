@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lacivita-hayman-wedding/static/css/main.1d770e5f.css",
-    "main.js": "/lacivita-hayman-wedding/static/js/main.de89b970.js",
-    "static/js/787.f3c95b04.chunk.js": "/lacivita-hayman-wedding/static/js/787.f3c95b04.chunk.js",
-    "static/media/sunset-palms.jpg": "/lacivita-hayman-wedding/static/media/sunset-palms.dfcc7bbabfbcd5552273.jpg",
-    "static/media/key-west-beach.jpg": "/lacivita-hayman-wedding/static/media/key-west-beach.716325548ce791db651c.jpg",
-    "index.html": "/lacivita-hayman-wedding/index.html",
-    "main.1d770e5f.css.map": "/lacivita-hayman-wedding/static/css/main.1d770e5f.css.map",
-    "main.de89b970.js.map": "/lacivita-hayman-wedding/static/js/main.de89b970.js.map",
-    "787.f3c95b04.chunk.js.map": "/lacivita-hayman-wedding/static/js/787.f3c95b04.chunk.js.map"
+    "main.css": "/static/css/main.7656ff56.css",
+    "main.js": "/static/js/main.ecdcce76.js",
+    "static/js/787.f3c95b04.chunk.js": "/static/js/787.f3c95b04.chunk.js",
+    "static/media/sunset-palms.jpg": "/static/media/sunset-palms.dfcc7bbabfbcd5552273.jpg",
+    "static/media/key-west-beach.jpg": "/static/media/key-west-beach.716325548ce791db651c.jpg",
+    "index.html": "/index.html",
+    "main.7656ff56.css.map": "/static/css/main.7656ff56.css.map",
+    "main.ecdcce76.js.map": "/static/js/main.ecdcce76.js.map",
+    "787.f3c95b04.chunk.js.map": "/static/js/787.f3c95b04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d770e5f.css",
-    "static/js/main.de89b970.js"
+    "static/css/main.7656ff56.css",
+    "static/js/main.ecdcce76.js"
   ]
 }
