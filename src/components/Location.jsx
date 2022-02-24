@@ -22,7 +22,7 @@ export default class Location extends React.Component {
                     </div>
                     <div className="location-right">
                         <span><a href="https://www.beaches.com/resorts/turks-caicos/" target="}_blank">Beaches Resort - Turks and Caicos</a></span>
-                        <span><strong>Address</strong>: Lower Bight Rd, The Bight Settlement TKCA 1ZZ, Turks & Caicos Islands</span>
+                        <span>Lower Bight Rd, The Bight Settlement TKCA 1ZZ, Turks & Caicos Islands</span>
                         <span>Explore the website and review the amenities and activities this beautiful resort has to offer.</span>
                     </div>
                 </div>
