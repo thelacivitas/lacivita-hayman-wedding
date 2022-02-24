@@ -26,7 +26,7 @@ export default class Schedule extends React.Component {
                     <div className='schedule-right'>
                         <span>Welcome Party</span>
                         <span>6-8pm</span>
-                        <span>Location: TBD</span>
+                        <span>Location TBD</span>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ export default class Schedule extends React.Component {
                     <div className='schedule-right'>
                         <span>Catamaran Excursion</span>
                         <span>2-5pm</span>
-                        <span>More info: Coming soon!</span>
+                        <span>More info to come!</span>
                     </div>
                 </div>
 
@@ -50,15 +50,15 @@ export default class Schedule extends React.Component {
                     <div className='schedule-right'>
                         <span>Wedding Ceremony</span>
                         <span>3-4pm</span>
-                        <span>Location: Key West Beach</span>
+                        <span>Key West Beach</span>
                         <hr/>
                         <span>Cocktail Reception</span>
                         <span>4-5pm</span>
-                        <span>Location: Key West Infinity Pool</span>
+                        <span>Key West Infinity Pool</span>
                         <hr/>
                         <span>Wedding Reception</span>
                         <span>5pm</span>
-                        <span>Location: Arizona Beach</span>
+                        <span>Arizona Beach</span>
                     </div>
                 </div>
 
