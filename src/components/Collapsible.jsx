@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './styles/Collapsible.css';
-import { BsChevronDown } from 'react-icons/bs'
+import {BsChevronDown} from 'react-icons/bs'
 
 export default class Collapsible extends React.Component {
     constructor(props) {

@@ -40,7 +40,7 @@
 }
 
 .schedule-right hr {
-    width:10%;
+    width: 10%;
     margin: 0 0 2.5% 0;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .schedule-left h2,
-.schedule-left h3{
+.schedule-left h3 {
     margin: 0 0 1% 0;
 }
 
@@ -57,6 +57,7 @@
     .schedule {
         padding: 5% 0 10% 0;
     }
+
     .schedule-right span {
         padding: 0 5% 2.5% 5%;
     }

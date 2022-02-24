@@ -25,8 +25,8 @@
 .home-section-1 {
     color: white;
     height: 500px;
-    letter-spacing:8px;
-    font-weight:300;
+    letter-spacing: 8px;
+    font-weight: 300;
 }
 
 .home-section-2,
@@ -34,9 +34,10 @@
     flex-wrap: wrap;
     height: 300px;
 }
+
 .home-section-2 {
     flex-direction: column;
-    letter-spacing:2px;
+    letter-spacing: 2px;
     padding-top: 2.5%;
 }
 
@@ -45,8 +46,8 @@
 }
 
 .home-section-1 h1 {
-    font-weight:300!important;
-    font-size:3em!important;
+    font-weight: 300 !important;
+    font-size: 3em !important;
 }
 
 .home h2 {

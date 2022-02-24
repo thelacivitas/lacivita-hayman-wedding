@@ -3,7 +3,6 @@
     background: #0c1b0c;
     height: 100%;
 
-    /* Fonts */
     font-family: Didot, serif;
     font-size: large;
     color: white;
@@ -31,18 +30,11 @@
     color: white;
 }
 
-.left {
-    flex: 1;
-}
-
-.right {
-    flex: 2;
-}
-
 @media (max-width: 450px) {
     .travel-title h1 {
         margin-bottom: 0;
     }
+
     .travel-info {
         padding: 0 10% 10px 10%;
     }

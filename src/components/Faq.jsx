@@ -19,7 +19,7 @@ export default class Faq extends React.Component {
                 </div>
 
                 <div className='faq-section'>
-                   <Collapsible question={'Is there transportation from the airport to the resort?'} answer={'answer'}/>
+                    <Collapsible question={'Is there transportation from the airport to the resort?'} answer={'answer'}/>
                 </div>
 
                 <div className='faq-section'>

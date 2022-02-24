@@ -25,7 +25,7 @@ export default class Main extends React.Component {
                     <Home/>
                     <Schedule/>
                     <Travel/>
-                    <Location />
+                    <Location/>
                     {/*<Faq/>*/}
                     <Footer/>
                 </header>
