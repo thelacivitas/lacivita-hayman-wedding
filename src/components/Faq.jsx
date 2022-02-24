@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/Faq.css';
+import Collapsible from './Collapsible';
 
 export default class Faq extends React.Component {
     constructor() {
@@ -14,24 +15,17 @@ export default class Faq extends React.Component {
         return (
             <div id='faq' className='faq'>
                 <div className='faq-title'>
-                    <h2>FAQ</h2>
+                    <h1>FAQ</h1>
                 </div>
 
-                <div className='faq-section-1'>
-                    <p><strong>Is there transportation from the airport to the resort? </strong></p>
-                    <p>answer</p>
+                <div className='faq-section'>
+                   <Collapsible question={'Is there transportation from the airport to the resort?'} answer={'answer'}/>
                 </div>
 
-                <div className='faq-section-2'>
-                    <p><strong>Is there a dress code at the resort?</strong></p>
-                    <p>Answer</p>
+                <div className='faq-section'>
+                    <Collapsible question={'Is there a dress code at the resort?'} answer={'answer'}/>
                 </div>
 
-                {/* Left here for duplicating if more questions*/}
-                <div className='faq-section-3'>
-                    <p><strong></strong></p>
-                    <p></p>
-                </div>
             </div>
         )
     }

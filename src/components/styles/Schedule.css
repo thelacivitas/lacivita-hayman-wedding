@@ -6,10 +6,10 @@
     font-family: Didot, serif;
     font-size: medium;
     color: black;
+
+    padding: 5% 0 0 0;
 }
 
-/* Common Styles */
-.schedule-title,
 .schedule-section-1,
 .schedule-section-2,
 .schedule-section-3 {
@@ -21,20 +21,40 @@
     padding: 5%;
 }
 
-.schedule-title {
-    padding: 5% 0 0 0;
-}
 .schedule-left {
     flex: 1;
 }
 
 .schedule-right {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-hr {
-    width:10%;
+.schedule-right span {
+    padding-bottom: 2.5%;
+    font-size: medium;
 }
+
+.schedule-right hr {
+    width:10%;
+    margin: 0 0 2.5% 0;
+}
+
 .schedule-left + .schedule-right {
     border-left: 2px solid palegoldenrod;
+}
+
+.schedule-left h2,
+.schedule-left h3{
+    margin: 0 0 1% 0;
+}
+
+@media (max-width: 450px) {
+    .schedule {
+        padding: 5% 0 10% 0;
+    }
 }

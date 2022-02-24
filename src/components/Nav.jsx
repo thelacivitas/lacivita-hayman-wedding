@@ -21,11 +21,11 @@ export default class Nav extends React.Component {
                         <Link to='#travel' className="nav-link">TRAVEL</Link>
                     </li>
                     <li>
-                        <Link to='#faq' className="nav-link">FAQ</Link>
+                        <Link to='#location' className="nav-link">LOCATION</Link>
                     </li>
-                    <li>
-                        <Link to='#rsvp' className="nav-link">RSVP</Link>
-                    </li>
+                    {/*<li>*/}
+                    {/*    <Link to='#faq' className="nav-link">FAQ</Link>*/}
+                    {/*</li>*/}
                 </ul>
             </nav>
         )

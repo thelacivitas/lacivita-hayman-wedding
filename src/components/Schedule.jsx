@@ -24,10 +24,9 @@ export default class Schedule extends React.Component {
                         <h3>Thursday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <h4>Welcome Party</h4>
-                        <h4>6-8pm</h4>
-                        <h4>Location: TBD</h4>
-                        <h4>Please wear white!</h4>
+                        <span>Welcome Party</span>
+                        <span>6-8pm</span>
+                        <span>Location: TBD</span>
                     </div>
                 </div>
 
@@ -37,9 +36,9 @@ export default class Schedule extends React.Component {
                         <h3>Friday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <h4>Catamaran Excursion</h4>
-                        <h4>2-5pm</h4>
-                        <h4>More info: Coming soon!</h4>
+                        <span>Catamaran Excursion</span>
+                        <span>2-5pm</span>
+                        <span>More info: Coming soon!</span>
                     </div>
                 </div>
 
@@ -49,17 +48,17 @@ export default class Schedule extends React.Component {
                         <h3>Saturday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <h4>Wedding Ceremony</h4>
-                        <h4>3-4pm</h4>
-                        <h4>Location: Key West Beach</h4>
+                        <span>Wedding Ceremony</span>
+                        <span>3-4pm</span>
+                        <span>Location: Key West Beach</span>
                         <hr/>
-                        <h4>Cocktail Reception</h4>
-                        <h4>4-5pm</h4>
-                        <h4>Location: Key West Infinity Pool</h4>
+                        <span>Cocktail Reception</span>
+                        <span>4-5pm</span>
+                        <span>Location: Key West Infinity Pool</span>
                         <hr/>
-                        <h4>Wedding Reception</h4>
-                        <h4>5pm</h4>
-                        <h4>Location: Arizona Beach</h4>
+                        <span>Wedding Reception</span>
+                        <span>5pm</span>
+                        <span>Location: Arizona Beach</span>
                     </div>
                 </div>
 

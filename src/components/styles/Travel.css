@@ -10,16 +10,24 @@
 
     align-items: center;
     justify-content: center;
-    padding:2%;
+    padding: 2.5% 0;
 }
 
 .travel-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px 10% 20px 10%;
-    font-size:1.4em;
-    margin:0 20%;
+    font-size: 1.4em;
 }
 
-a {
+.travel a {
+    color: white;
+}
+
+.travel a:visited {
     color: white;
 }
 
@@ -31,6 +39,12 @@ a {
     flex: 2;
 }
 
-p {
-    font-size:1em;
+@media (max-width: 450px) {
+    .travel-title h1 {
+        margin-bottom: 0;
+    }
+    .travel-info {
+        padding: 0 10% 10px 10%;
+    }
 }
+

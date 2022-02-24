@@ -23,7 +23,7 @@ export default class Travel extends React.Component {
                     </p>
 
                     <p>(248) 358-5330 EXT 122</p>
-                  <p>  <a href = "mailto: donna@cadillactravel.com">donna@cadillactravel.com</a></p>
+                    <p><a href="mailto: donna@cadillactravel.com">donna@cadillactravel.com</a></p>
                 </div>
             </div>
         )
