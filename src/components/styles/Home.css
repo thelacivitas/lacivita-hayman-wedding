@@ -27,6 +27,8 @@
     height: 500px;
     letter-spacing: 8px;
     font-weight: 300;
+
+    align-items: flex-start;
 }
 
 .home-section-2,
