@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import Nav from './Nav';
+// import Nav from './Nav';
 import Home from './Home';
 import Schedule from './Schedule';
 import Travel from './Travel';
@@ -21,7 +21,7 @@ export default class Main extends React.Component {
             <div className="App">
                 <header className="App-header">
                     <Header/>
-                    <Nav/>
+                    {/*<Nav/>*/}
                     <Home/>
                     <Schedule/>
                     <Travel/>

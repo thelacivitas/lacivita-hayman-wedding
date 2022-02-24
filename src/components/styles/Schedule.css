@@ -57,4 +57,7 @@
     .schedule {
         padding: 5% 0 10% 0;
     }
+    .schedule-right span {
+        padding: 0 5% 2.5% 5%;
+    }
 }
