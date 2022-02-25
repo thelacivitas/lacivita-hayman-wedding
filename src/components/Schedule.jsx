@@ -15,7 +15,8 @@ export default class Schedule extends React.Component {
         return (
             <div id='schedule' className='schedule'>
                 <div className='schedule-title'>
-                    <h1>Schedule</h1>
+                    <h1>Schedule of Events</h1>
+                    <span>all activities will take place at Beaches Resort - Turks and Caicos</span>
                 </div>
 
                 <div className='schedule-section-1'>
@@ -24,8 +25,8 @@ export default class Schedule extends React.Component {
                         <h3>Thursday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <span>Welcome Party</span>
-                        <span>6-8pm</span>
+                        <span>6pm | Welcome Party</span>
+                        <span>White attire encouraged</span>
                         <span>Location TBD</span>
                     </div>
                 </div>
@@ -36,8 +37,7 @@ export default class Schedule extends React.Component {
                         <h3>Friday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <span>Catamaran Excursion</span>
-                        <span>2-5pm</span>
+                        <span>2-5pm | Catamaran Excursion</span>
                         <span>More info to come!</span>
                     </div>
                 </div>
@@ -48,17 +48,19 @@ export default class Schedule extends React.Component {
                         <h3>Saturday</h3>
                     </div>
                     <div className='schedule-right'>
-                        <span>Wedding Ceremony</span>
-                        <span>3-4pm</span>
-                        <span>Key West Beach</span>
-                        <hr/>
-                        <span>Cocktail Reception</span>
-                        <span>4-5pm</span>
-                        <span>Key West Infinity Pool</span>
-                        <hr/>
-                        <span>Wedding Reception</span>
-                        <span>5pm</span>
-                        <span>Arizona Beach</span>
+                        <div className="schedule-item">
+                            <span>3pm | Wedding Ceremony</span>
+                            <span>Key West Beach</span>
+                        </div>
+                        <div className="schedule-item">
+                            <span>4pm | Cocktail Reception</span>
+                            <span>Key West Infinity Pool</span>
+                        </div>
+
+                        <div className="schedule-item">
+                            <span>5-12am | Dinner & Drinks</span>
+                            <span>Arizona Beach</span>
+                        </div>
                     </div>
                 </div>
 

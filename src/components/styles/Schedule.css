@@ -10,6 +10,10 @@
     padding: 5% 0 0 0;
 }
 
+.schedule-title {
+    padding: 0 5% 0 5%;
+}
+
 .schedule-section-1,
 .schedule-section-2,
 .schedule-section-3 {
@@ -35,8 +39,17 @@
 }
 
 .schedule-right span {
-    padding-bottom: 2.5%;
     font-size: medium;
+}
+
+.schedule-right .schedule-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    padding-bottom: 5%;
 }
 
 .schedule-right hr {
@@ -58,7 +71,17 @@
         padding: 5% 0 10% 0;
     }
 
+    .schedule-section-1,
+    .schedule-section-2,
+    .schedule-section-3 {
+        padding: 10% 0 10% 0;
+    }
+
     .schedule-right span {
         padding: 0 5% 2.5% 5%;
+    }
+
+    .schedule-right .schedule-item {
+        padding-bottom: 15%;
     }
 }
