@@ -36,6 +36,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+
 }
 
 .schedule-right span {
@@ -49,7 +50,7 @@
     flex-wrap: wrap;
     flex-direction: column;
 
-    padding-bottom: 5%;
+    padding: 2.5% 0;
 }
 
 .schedule-right hr {
