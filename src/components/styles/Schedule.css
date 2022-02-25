@@ -4,7 +4,7 @@
     background: white;
 
     font-family: Didot, serif;
-    font-size: medium;
+    font-size: large;
     color: black;
 
     padding: 5% 0 0 0;
@@ -39,7 +39,7 @@
 }
 
 .schedule-right span {
-    font-size: medium;
+    font-size: large;
 }
 
 .schedule-right .schedule-item {
@@ -69,6 +69,7 @@
 @media (max-width: 450px) {
     .schedule {
         padding: 5% 0 10% 0;
+        font-size: medium;
     }
 
     .schedule-section-1,
@@ -79,6 +80,7 @@
 
     .schedule-right span {
         padding: 0 5% 2.5% 5%;
+        font-size: medium;
     }
 
     .schedule-right .schedule-item {
