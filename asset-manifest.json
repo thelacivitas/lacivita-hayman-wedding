@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lacivita-hayman-wedding/static/css/main.028bfe03.css",
-    "main.js": "/lacivita-hayman-wedding/static/js/main.ca837b96.js",
+    "main.css": "/lacivita-hayman-wedding/static/css/main.c613d5d0.css",
+    "main.js": "/lacivita-hayman-wedding/static/js/main.24793ab8.js",
     "static/js/787.f3c95b04.chunk.js": "/lacivita-hayman-wedding/static/js/787.f3c95b04.chunk.js",
     "static/media/key-west-beach.jpg": "/lacivita-hayman-wedding/static/media/key-west-beach.716325548ce791db651c.jpg",
     "static/media/resort-beach.jpg": "/lacivita-hayman-wedding/static/media/resort-beach.23b8d906c44c2fabcaea.jpg",
     "index.html": "/lacivita-hayman-wedding/index.html",
-    "main.028bfe03.css.map": "/lacivita-hayman-wedding/static/css/main.028bfe03.css.map",
-    "main.ca837b96.js.map": "/lacivita-hayman-wedding/static/js/main.ca837b96.js.map",
+    "main.c613d5d0.css.map": "/lacivita-hayman-wedding/static/css/main.c613d5d0.css.map",
+    "main.24793ab8.js.map": "/lacivita-hayman-wedding/static/js/main.24793ab8.js.map",
     "787.f3c95b04.chunk.js.map": "/lacivita-hayman-wedding/static/js/787.f3c95b04.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.028bfe03.css",
-    "static/js/main.ca837b96.js"
+    "static/css/main.c613d5d0.css",
+    "static/js/main.24793ab8.js"
   ]
 }
