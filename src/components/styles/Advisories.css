@@ -1,0 +1,41 @@
+.advisories {
+    width: 100%;
+    background: #f5f2ea;
+    height: 100%;
+
+    font-size: large;
+    color: black;
+
+    align-items: center;
+    justify-content: center;
+    padding: 2.5% 0;
+}
+
+.advisories-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 10% 20px 10%;
+    font-size: 1.4em;
+}
+
+.advisories a {
+    color: black;
+}
+
+.advisories a:visited {
+    color: black;
+}
+
+@media (max-width: 450px) {
+    .advisories-title h1 {
+        margin-bottom: 0;
+    }
+
+    .advisories-info {
+        padding: 0 10% 0 10% !important;
+    }
+}
+

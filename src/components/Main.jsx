@@ -6,6 +6,7 @@ import Schedule from './Schedule';
 import Travel from './Travel';
 import Location from './Location';
 import Footer from './Footer';
+import Advisories from './Advisories';
 // import Faq from './Faq';
 
 export default class Main extends React.Component {
@@ -25,6 +26,7 @@ export default class Main extends React.Component {
                     <Home/>
                     <Schedule/>
                     <Travel/>
+                    <Advisories/>
                     <Location/>
                     {/*<Faq/>*/}
                     <Footer/>

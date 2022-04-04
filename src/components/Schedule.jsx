@@ -58,7 +58,7 @@ export default class Schedule extends React.Component {
                         </div>
 
                         <div className="schedule-item">
-                            <span>5-12am | Dinner & Drinks</span>
+                            <span>5-10pm | Dinner & Drinks</span>
                             <span>Arizona Beach</span>
                         </div>
                     </div>
