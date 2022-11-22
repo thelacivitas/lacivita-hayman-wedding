@@ -3,7 +3,7 @@
     height: 100%;
     background: #f5f2ea;
 
-    font-size: medium;
+    font-size: large;
     color: black;
 
     padding: 2.5% 10%;
@@ -16,6 +16,18 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+}
+
+.faq-section span {
+    margin: 10px 0;
+}
+
+.faq a {
+    color: black;
+}
+
+.faq a:visited {
+    color: black;
 }
 
 @media (max-width: 450px) {

@@ -20,6 +20,7 @@ export default class Travel extends React.Component {
                     <p>
                         Please contact our booking agent Donna Jaworski at Cadillac Travel Group to handle your bookings.
                         Keep in mind flights will not be available until 10 months prior to the wedding date.
+                        If you would prefer to book your own travel arrangements, you may book directly through the Beaches website.
                     </p>
 
                     <p>(248) 358-5330 EXT 122</p>

@@ -7,7 +7,8 @@ import Travel from './Travel';
 import Location from './Location';
 import Footer from './Footer';
 import Advisories from './Advisories';
-// import Faq from './Faq';
+import Faq from './Faq';
+import Details from './Details';
 
 export default class Main extends React.Component {
     constructor() {
@@ -25,10 +26,11 @@ export default class Main extends React.Component {
                     {/*<Nav/>*/}
                     <Home/>
                     <Schedule/>
+                    <Details/>
                     <Travel/>
                     <Advisories/>
                     <Location/>
-                    {/*<Faq/>*/}
+                    <Faq/>
                     <Footer/>
                 </header>
             </div>

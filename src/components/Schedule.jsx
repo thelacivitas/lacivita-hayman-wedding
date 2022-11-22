@@ -27,7 +27,6 @@ export default class Schedule extends React.Component {
                     <div className='schedule-right'>
                         <span>6pm | Welcome Party</span>
                         <span>White attire encouraged</span>
-                        <span>Location TBD</span>
                     </div>
                 </div>
 
@@ -38,7 +37,6 @@ export default class Schedule extends React.Component {
                     </div>
                     <div className='schedule-right'>
                         <span>2-5pm | Catamaran Excursion</span>
-                        <span>More info to come!</span>
                     </div>
                 </div>
 

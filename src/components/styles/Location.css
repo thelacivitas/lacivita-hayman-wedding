@@ -1,10 +1,10 @@
 .location {
     width: 100%;
     height: 100%;
-    background: white;
+    background: #0c1b0c;
 
     font-size: large;
-    color: black;
+    color: white;
 
     padding: 2.5% 0;
 }
@@ -42,11 +42,11 @@
 }
 
 .location a {
-    color: black;
+    color: white;
 }
 
 .location a:visited {
-    color: black;
+    color: white;
 }
 
 @media (max-width: 450px) {
