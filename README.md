@@ -9,3 +9,5 @@ To deploy the changes to the site:
 
 The changes should be live on the URL listed in the package.json under `homepage`
 
+If you run into auth issues when deploying, 
+`git remote set-url origin https://thelacivitas:<ACCESS_TOKEN>@github.com/thelacivitas/lacivita-hayman-wedding.git`
