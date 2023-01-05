@@ -33,7 +33,7 @@ export default class Faq extends React.Component {
                     <Collapsible question={'Is there a dress code for the restaurants at the resort?'}
                                  answer={<div><strong>RESORT CASUAL:</strong> Shorts or jeans, t–shirts or polo shirts. Swimwear must be covered. Shirts and footwear required. <br/>
                                      <strong>RESORT EVENING:</strong> Dress pants or jeans for men, long or short sleeve dress shirts (with or without collar). Dress shoes or sandals. No shorts, t–shirts, sleeveless shirts, sneakers, flip flops or slippers. No hats nor caps. <br/>
-                                     Each restaurant has its own dress code listed on the Beaches website here: <a href="https://www.beaches.com/resorts/turks-caicos/restaurants/">Beaches Restaurants</a></div>
+                                     Each restaurant has its own dress code listed on the Beaches website here: <a target="_blank" rel="noreferrer" href="https://www.beaches.com/resorts/turks-caicos/restaurants/">Beaches Restaurants</a></div>
                                  }/>
                 </div>
 
