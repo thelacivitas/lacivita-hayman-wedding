@@ -21,7 +21,7 @@ export default class Details extends React.Component {
                 <div className='details-section'>
                     <h3>Attire</h3>
                     <span>Dress Code: Beach Formal</span>
-                    <span>The ceremony will take place on a beach, so choose footwear accordingly.</span>
+                    <span>The ceremony and reception will take place on a beach, so choose footwear accordingly.</span>
                 </div>
 
                 <div className='details-section'>
