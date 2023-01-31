@@ -26,6 +26,7 @@ export default class Schedule extends React.Component {
                     </div>
                     <div className='schedule-right'>
                         <span>6pm | Welcome Party</span>
+                        <span>Iguana Pool</span>
                         <span>White attire encouraged</span>
                     </div>
                 </div>
